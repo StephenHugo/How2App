@@ -1,0 +1,10 @@
+{"english":
+    {"scene 2":
+        {"2.1":"Hi! This text should appear on the screen after the scene transitions completely.",
+        "2.2":"Now, the menu items should appear on the screen. Click this text to go to Scene 3."},
+    "scene 3":
+        {"3.1":"Click the screen, then drag the text to the top."},
+    "scene 4":
+        {"4.1":"Click the screen to generate sprites and make noise."}
+    }
+}
