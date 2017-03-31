@@ -2,7 +2,7 @@
 #include "SimpleAudioEngine.h"
 #include "ResourceDefinitions.h"
 
-#include "Scene1.h"
+#include "HelloWorldScene.h"
 
 #include "editor-support/spine/json.h"
 
@@ -66,9 +66,9 @@ void Scene4::gotonextScene(float dt)
     
     this->unscheduleAllCallbacks();
     
-    auto scene1 = Scene1::createScene();
+    auto helloWorld = HelloWorld::createScene();
     
-    Director::getInstance()->pushScene(TransitionFlipY::create(SCENETRANSITIONTIME, scene1));
+    Director::getInstance()->pushScene(TransitionFlipY::create(SCENETRANSITIONTIME, helloWorld));
 }
 
 void Scene4::textAppears(float dt)
